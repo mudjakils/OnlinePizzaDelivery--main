@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <title>Home</title>
-  <link rel="icon" href="img/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="img/LOGO2.jpg" type="image/x-icon">
   <style>
     body {
       background-color: #f0f8ff; /* Light blue background */
@@ -53,6 +53,13 @@
     .bg-light {
       background-color: rgba(255, 255, 255, 0.8) !important;
     }
+    .menu-header {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-top: 3px double #000;
+      border-bottom: 3px double #000;
+      padding: 10px 0;
+      margin: 20px auto;
+    }
   </style>
 </head>
 <body>
@@ -61,7 +68,7 @@
 
   <!-- Category container starts here -->
   <div class="container my-3 mb-5">
-    <div class="col-lg-2 text-center bg-light my-3" style="margin:auto;border-top: 2px groove black;border-bottom: 2px groove black;">
+    <div class="col-lg-2 text-center menu-header">
       <h2 class="text-center">Menu</h2>
     </div>
     <div class="row">

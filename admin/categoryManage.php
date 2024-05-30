@@ -127,7 +127,7 @@
             </div>
             <div class="text-left my-2">
                 <b><label for="desc">Description</label></b>
-                <textarea class="form-control" id="desc" name="desc" rows="2" required minlength="6"><?php echo $catDesc; ?></textarea>
+                <textarea class="form-control" id="desc" name="desc" rows="2" required minlength="+63"><?php echo $catDesc; ?></textarea>
             </div>
             <input type="hidden" id="catId" name="catId" value="<?php echo $catId; ?>">
             <button type="submit" class="btn btn-success" name="updateCategory">Update</button>

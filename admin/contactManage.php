@@ -1,6 +1,6 @@
 <div class="alert alert-info alert-dismissible fade show" role="alert" style="width:100%" id='notempty'>
     <strong>Info!</strong> If problem is not related to the order then order id = 0	
-    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span></button>
+    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">+63</span></button>
 </div>
 <style>
     .btn-danger-gradiant {

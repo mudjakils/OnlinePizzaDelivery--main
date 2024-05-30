@@ -112,7 +112,7 @@
                         <b><label for="phone">Phone No:</label></b>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon">+91</span>
+                                <span class="input-group-text" id="basic-addon">+63</span>
                             </div>
                             <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Phone No" required pattern="[0-9]{10}" maxlength="10">
                         </div>
@@ -209,9 +209,9 @@
                         <b><label for="phone">Phone No:</label></b>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon">+91</span>
+                                <span class="input-group-text" id="basic-addon">+63</span>
                             </div>
-                            <input type="tel" class="form-control" id="phone" name="phone" value="<?php echo $phone; ?>" required pattern="[0-9]{10}" maxlength="10">
+                            <input type="tel" class="form-control" id="phone" name="phone" value="<?php echo $phone; ?>" required pattern="[0-9]{11}" maxlength="11">
                         </div>
                     </div>
                     <div class="form-group col-md-6 my-0">
